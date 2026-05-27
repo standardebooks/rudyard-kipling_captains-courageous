@@ -68,5 +68,4 @@ section[epub|type~="dedication"] > footer{
 section[epub|type~="dedication"] cite{
 	font-variant: small-caps;
 }
-
 /* End centered dedications */
