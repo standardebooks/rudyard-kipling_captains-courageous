@@ -3,14 +3,12 @@
 
 [epub|type~="z3998:diary"] p,
 [epub|type~="z3998:letter"] p,
-[epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
@@ -18,7 +16,6 @@
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
@@ -62,6 +59,30 @@ section[epub|type~="dedication"] > *{
 }
 
 /* End centered dedications */
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] em,
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
+
 
 /* Full-page epigraphs */
 section[epub|type~="epigraph"]{
