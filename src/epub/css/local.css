@@ -3,12 +3,17 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
 
-/* Song and verse */
+/* Song, hymn, and verse */
 
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p.centered,
+[epub|type~="z3998:verse"] p.centered{
+	text-align: center;
 }
 
 [epub|type~="z3998:song"] p > span,
@@ -32,12 +37,43 @@
 }
 
 [epub|type~="z3998:song"] header p{
+	font-style: italic;
 	text-align: center;
 }
 
+[epub|type~="z3998:hymn"]{
+	font-style: italic;
+}
 
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
 
-/* end song and verse */
+p span.i4{
+	padding-left: 5em;
+	text-indent: -1em;
+}
+
+p.i7,
+p span.i7{
+	padding-left: 8em;
+	text-indent: -1em;
+}
+
+p.i8,
+p span.i8{
+	padding-left: 9em;
+	text-indent: -1em;
+}
+
+p.i10,
+p span.i10{
+	padding-left: 11em;
+	text-indent: -1em;
+}
+
+/* end song, hymn and verse */
 
 /* Centered dedications */
 
