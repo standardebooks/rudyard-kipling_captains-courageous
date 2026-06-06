@@ -3,12 +3,14 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Song, hymn, and verse */
+[epub|type~="z3998:hymn"] p,
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:hymn"] p > span,
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
@@ -37,10 +39,6 @@
 [epub|type~="z3998:song"] header p > span{
 	font-style: initial;
 	margin-top: 0;
-}
-
-[epub|type~="z3998:hymn"]{
-	font-style: italic;
 }
 /* end song, hymn and verse */
 
