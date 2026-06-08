@@ -36,9 +36,9 @@
 	text-align: center;
 }
 
-[epub|type~="z3998:song"] header p > span{
-	font-style: initial;
+[epub|type~="z3998:song"] header + p{
 	margin-top: 0;
+	text-align: center;
 }
 /* end song, hymn and verse */
 
