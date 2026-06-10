@@ -74,13 +74,15 @@ section[epub|type~="dedication"] > *{
 
 /* All epigraphs */
 [epub|type~="epigraph"]{
+	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
 }
 
 [epub|type~="epigraph"] cite{
-	font-style: italic;
+	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
