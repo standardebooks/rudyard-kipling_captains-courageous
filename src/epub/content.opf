@@ -30,31 +30,31 @@
 		<dc:title id="title">Captains Courageous</dc:title>
 		<meta property="file-as" refines="#title">Captains Courageous</meta>
 		<dc:subject id="subject-1">Sea stories</dc:subject>
-		<meta property="authority" refines="#subject-1">LCHS</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85119251</meta>
 		<dc:subject id="subject-2">Bildungsromans</dc:subject>
-		<meta property="authority" refines="#subject-2">LCHS</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2003003087</meta>
 		<dc:subject id="subject-3">Children of the rich -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-3">LCHS</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008100487</meta>
 		<dc:subject id="subject-4">Saltwater fishing -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-4">LCHS</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2010111868</meta>
 		<dc:subject id="subject-5">Fishing boats -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-5">LCHS</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008120679</meta>
 		<dc:subject id="subject-6">Teenage boys -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-6">LCHS</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2008112614</meta>
 		<dc:subject id="subject-7">Rescues -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-7">LCHS</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2010110833</meta>
 		<dc:subject id="subject-8">Fishers -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-8">LCHS</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh2008103611</meta>
 		<dc:subject id="subject-9">Grand Banks of Newfoundland -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-9">LCHS</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
 		<meta property="term" refines="#subject-9">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A spoiled rich teenager falls overboard from an ocean liner and is rescued by a New England fishing schooner, where the crew forces him to work, ultimately transforming him into a mature and self-reliant young man.</dc:description>
